@@ -2,8 +2,7 @@
 #ifndef EDGE_DETECTION_
 #define EDGE_DETECTION_
 
-using namespace cv;
-Mat laplacianDetection(Mat gray, Mat blurred, Mat edge);
-Mat cannyThreshold(Mat gray, Mat blurred, Mat edge);
+cv::Mat laplacianDetection(cv::Mat gray, cv::Mat blurred, cv::Mat edge);
+cv::Mat cannyThreshold(cv::Mat gray, cv::Mat blurred, cv::Mat edge);
 
 #endif 
